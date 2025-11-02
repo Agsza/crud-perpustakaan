@@ -10,7 +10,7 @@
     @endif
 
     <div>
-        <h2>Daftar Buku</h2>
+        <h2 class="text-center fs-2 mt-5 fw-bold text-primary">Daftar Buku Perpustakaan</h2>
         <a href="{{ route('buku.create') }}" class="btn btn-sm btn-success mb-2">Tambah Buku</a>
     </div>
 
