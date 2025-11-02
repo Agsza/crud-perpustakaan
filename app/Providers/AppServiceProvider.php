@@ -7,6 +7,9 @@ use Illuminate\Pagination\Paginator;
 
 class AppServiceProvider extends ServiceProvider
 {
+
+    public const HOME = '/buku';
+
     /**
      * Register any application services.
      */
